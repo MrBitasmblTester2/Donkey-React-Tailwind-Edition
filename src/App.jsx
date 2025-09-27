@@ -1,0 +1,1 @@
+// src/App.jsx\nimport React from \"react\";\nimport GameEngine from \"./components/GameEngine\";\nexport default function App() {\n  return (\n    <div className=\"w-full h-screen bg-gray-900 flex items-center justify-center\">\n      <GameEngine />\n    </div>\n  );\n}

@@ -1,0 +1,1 @@
+// src/components/GameEngine.jsx\nimport React, {useState, useEffect} from \"react\";\nexport default function GameEngine() {\n  const [level, setLevel] = useState(1);\n  useEffect(() => {\n    // TODO: animation loop and game logic\n  }, [level]);\n  return <div id=\"game-canvas\" className=\"relative w-full h-full\"></div>;\n}

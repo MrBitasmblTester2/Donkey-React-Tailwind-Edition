@@ -1,0 +1,1 @@
+// initialize npm and install react & tailwind\n{\n  \"name\": \"donkey-kong-game\",\n  \"version\": \"0.1.0\",\n  \"dependencies\": {\"react\": \"^17.0.0\", \"react-dom\": \"^17.0.0\"},\n  \"devDependencies\": {\"tailwindcss\": \"^3.0.0\", \"postcss\": \"^8.0.0\", \"autoprefixer\": \"^10.0.0\"}\n}

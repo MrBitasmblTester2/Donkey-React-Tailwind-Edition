@@ -1,0 +1,1 @@
+// src/components/Player.jsx\nimport React, {useState, useEffect} from \"react\";\nexport default function Player() {\n  const [pos, setPos] = useState({x: 0, y: 0});\n  useEffect(() => {\n    // TODO: handle keyboard and update pos\n  }, []);\n  return <div className=\"absolute w-8 h-8 bg-red-500\" style={{left: pos.x, top: pos.y}} />;\n}
